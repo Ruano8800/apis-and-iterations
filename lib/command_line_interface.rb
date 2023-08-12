@@ -18,3 +18,8 @@ def get_movie_from_user
 	puts "please enter a movie"
 	user_input = gets.chomp.downcase
 end
+
+def get_users_from_movie
+	puts "please enter a user"
+	user_input = gets.chomp.downcase
+end
